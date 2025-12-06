@@ -1,11 +1,9 @@
-lb config -d bookworm \
-          --debian-installer live \
-          --debian-installer-distribution bookworm \
-          --debian-installer-gui true \
+lb config -d testing \
+          --distribution "trixie" \
+          --binary-images iso-hybrid \
           --archive-areas "main contrib non-free non-free-firmware" \
           --debootstrap-options "--variant=minbase" \
-          --security true \
-          --updates true \
-          --backports true
-
+          --mirror-bootstrap "http://deb.debian.org/debian/" \
+          --mirror-chroot "http://deb.debian.org/debian/" \
+          --bootappend-live "boot=live components username=user hostname=trixie-budgie"
 sudo lb build
