@@ -1,4 +1,5 @@
    lb config -d testing \
+          --debian-installer-gui true \
           --distribution "trixie" \
           --binary-images iso-hybrid \
           --architectures amd64 \
