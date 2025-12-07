@@ -7,7 +7,6 @@ budgie-desktop
 nautilus
 gdm3
 qterminal
-arc
 sudo
 htop
 lm-sensors
@@ -99,3 +98,4 @@ parted
 testdisk
 kodi
 syncthing
+fastfetch
