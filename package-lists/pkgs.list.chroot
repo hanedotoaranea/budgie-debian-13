@@ -1,4 +1,4 @@
-firmware-linux-nonfree
+firmware-linux
 linux-image-amd64
 xorg
 xserver-xorg-input-libinput
