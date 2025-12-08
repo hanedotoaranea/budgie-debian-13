@@ -1,4 +1,3 @@
-
 lb config -d bookworm \
           --distribution bookworm 
           --debian-installer live \
